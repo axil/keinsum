@@ -14,8 +14,10 @@ An extension of np.einsum where capital letters serve as multiple ellipses, see 
 
 ## Usage
 
+```python
     from keinsum import keinsum
     keinsum('Ik,kJ', a, b)` 
+```
 
 is the same as `np.einsum('ijk,klm', a, b)` where `a` and `b` are 3D arrays.
 
