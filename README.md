@@ -2,6 +2,7 @@
 
 [![pypi](https://img.shields.io/pypi/v/keinsum.svg)](https://pypi.python.org/pypi/keinsum)
 [![python](https://img.shields.io/pypi/pyversions/keinsum.svg)](https://pypi.org/project/keinsum/)
+![Coverage Badge](img/coverage.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/pypi/l/keinsum)](https://pypi.org/project/keinsum/)
 

@@ -7,11 +7,11 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='keinsum',
-    version='0.1',
+    version='0.2',
     author='Lev Maximov',
     author_email='lev.maximov@gmail.com',
     url='https://github.com/axil/keinsum',
-    description='An extension of einsum where capital letters serve as multiple ellipses',
+    description='An extension of np.einsum where capital letters serve as multiple ellipses.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     python_requires=">=3.7",
