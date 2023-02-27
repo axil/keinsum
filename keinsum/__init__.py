@@ -2,7 +2,7 @@ from itertools import chain
 
 import numpy as np
 
-__version__ = '0.3'
+__version__ = '0.3.1'
 
 __all__ = ["keinsum"]
 
