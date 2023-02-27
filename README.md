@@ -1,4 +1,4 @@
-﻿# keinsum
+# keinsum
 
 [![pypi](https://img.shields.io/pypi/v/keinsum.svg)](https://pypi.python.org/pypi/keinsum)
 [![python](https://img.shields.io/pypi/pyversions/keinsum.svg)](https://pypi.org/project/keinsum/)
