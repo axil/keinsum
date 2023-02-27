@@ -22,7 +22,7 @@ def parse(fmt, *arrs):
                 dim = arrs[i].ndim - (len(op) - 1)
                 if ch in dims:
                     if dim != dims[ch]:
-                        raise ValueError("Inconsistent number of dimensions for {ch}.")
+                        raise ValueError(f"Inconsistent number of dimensions for {ch}.")
                 else:
                     dims[ch] = dim
     d = {}

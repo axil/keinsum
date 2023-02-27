@@ -46,6 +46,9 @@ def test_keinsum():
     assert np.allclose(keinsum("iJ,iK->JK", a, b), np.einsum("ijk,ilm->jklm", a, b))
     assert np.allclose(keinsum("iJ,iK->KJ", a, b), np.einsum("ijk,ilm->lmjk", a, b))
 
+    with pytest.raises(ValueError):
+        parse('iJ,Jkl', a, b)
+
 
 if __name__ == "__main__":
     pytest.main(["-s", __file__])  # + '::test7'])
